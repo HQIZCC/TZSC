@@ -9,6 +9,6 @@ public class UserController {
     @RequestMapping("/findIndex")
     public String toIndex(){
 
-        return "index";
+        return "/index";
     }
 }

@@ -71,12 +71,6 @@
 	 	<!--过滤器链 -->
 	 	<property name="filterChainDefinitions">
 		 	<value>
-		 	<!--
-		 		拦截策略：   authc 拦截    anon  放行
-		 		1. /** = authc    表示全部的请求、资源都被拦截   -->
-		 		/staticfile/**  = anon    <!--放行全部静态资源  -->
-		 		/findIndex = anon    <!--表示放行页面跳转登陆请求  -->
-		 		/login.action   = anon
 		 		/** = authc
 		 	</value>
 	 	</property>
